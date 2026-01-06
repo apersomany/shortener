@@ -1,0 +1,1 @@
+oha --rand-regex-url "http://127.0.0.1/(i/[a-z]*[0-9]*/[a-z]*[0-9]*|[a-z]*[0-9]*)" --max-repeat 4 -r 0 -c 1024 -n 1048576

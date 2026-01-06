@@ -115,7 +115,7 @@ fn main() {
             .expect("failed to bind listener");
         let listener = Arc::new(listener);
         let map = Arc::new(DashMap::new());
-        info!("server started");
+        info!("server started on 0.0.0.0:80");
         for _ in 0..1024 {
             spawn(worker(listener.clone(), map.clone()));
         }
