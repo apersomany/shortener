@@ -1,6 +1,6 @@
 # Shortener
 
-An exteremly simple url shortener backend made for fun.
+An extremely simple url shortener backend made for fun.
 
 ### API Endpoints
 
